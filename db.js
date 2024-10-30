@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const mongoURL = 'mongodb+srv://ombansod:ombansod123@cluster0.izcwlcw.mongodb.net/JOB';
+const mongoURL = '';
 
 mongoose.connect(mongoURL, { useUnifiedTopology: true, useNewUrlParser: true });
 
